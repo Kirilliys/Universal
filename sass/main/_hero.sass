@@ -1,0 +1,55 @@
+.hero
+  &-container
+    min-height: 475px
+  &__about
+    position: absolute
+    top: 100px
+    left: 50%
+    transform: translateX(-50%)
+    width: 1140px
+    min-height: 475px
+    border-radius: 10px
+    overflow: hidden
+    background-color: transparent
+.tabs
+  display: flex
+  width: 100%
+  min-height: 570px
+  border-radius: 10px
+  &__content
+    position: relative
+    display: flex
+    visibility: visible
+    padding: 55px 55px 100px 55px
+    flex-wrap: wrap
+    width: 877px
+    object-fit: cover
+  &__background
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+  &__grandient
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: linear-gradient(0deg, rgba(64,48,61,0.35), rgba(64,48,61,0.35))
+  &-author
+    display: flex
+    position: relative
+    flex-basis: 100%
+    &__avatar
+      margin-right: 10px
+      width: 45px
+      height: 45px
+      border-radius: 50%
+      object-fit: cover
+    &__text
+      display: flex
+      flex-direction: column
+      margin-top: 7px

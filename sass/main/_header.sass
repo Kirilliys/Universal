@@ -1,0 +1,47 @@
+.header
+  background-color: $background-dark
+  &-container
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 15px 0
+  &__logo
+    width: 163px
+  &__navbar
+    display: flex
+    align-items: center
+    justify-content: space-between
+    list-style-type: none
+  &__item
+    &:not(:last-child)
+      margin-right: 30px
+
+  &__link
+    font-style: normal
+    font-weight: 900
+    font-size: 14px
+    line-height: 20px
+    color: $light
+    text-decoration: none
+.search
+  position: relative
+  overflow: hidden
+  border-radius: 10px
+  width: 263px
+  height: 39px
+  &__input
+    width: 100%
+    height: 100%
+    padding-left: 25px
+    padding-right: 65px
+    font-size: 14px
+    line-height: 20px
+    color: $light
+    background-color: #656B70
+    border: none
+  &__button
+    position: absolute
+    top: 9px
+    right: 25px
+    background-color: transparent
+    border: none
